@@ -7,7 +7,6 @@ bash_is_current_version() {
 curl_is_installed() {
   &>/dev/null which curl &&
     curl --version | grep -q '^curl'
-
 }
 
 get_current_date() {
